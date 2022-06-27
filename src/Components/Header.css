@@ -1,0 +1,37 @@
+#outlined-basic{
+    height: 5px !important;
+    background-color: #eef3f8;    
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    line-height: 0.8rem !important;
+}
+.header__logo{
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    align-self: center;
+}
+.header{
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 1;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 0.1px solid lightgray;
+}
+.header__left{
+    display: flex;
+    background-color: white;
+    z-index: 1;
+}
+.header__search{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.header__right{
+    display: flex; 
+    background-color: white;
+}

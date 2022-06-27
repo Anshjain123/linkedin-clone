@@ -1,0 +1,14 @@
+.inputoption{
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px;
+}
+.inputoption:hover{
+    background-color: rgba(0, 0, 0, 0.08); 
+    border-radius: 5px;
+}
+.inputOption__icon{
+    margin-right: 5px;
+}

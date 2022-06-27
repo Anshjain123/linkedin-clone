@@ -1,0 +1,20 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 20px;
+    align-items: center;
+    align-self: center;
+}
+.headerOption:hover{
+    color: black;
+}
+.headerOption__title{
+    font-size: 13px;
+    background-color: white;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    text-transform: none !important;
+}

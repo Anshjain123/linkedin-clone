@@ -1,0 +1,61 @@
+.feed{
+    margin-top: 25px;
+    flex: 0.6;
+    margin-bottom: 50px;
+    margin-left: -60px;
+}
+.feed__inputContainer{
+    background-color: white;
+    padding: 10px;
+    /* padding-bottom: 20px; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.feed__inputContainer2{
+    /* background-color: white; */
+    padding: 10px;
+    /* padding-bottom: 20px; */
+    border-radius: 10px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+.feed__avatar{
+    margin-right: 5px;
+    /* z-index: 1; */
+}
+.feed__input{
+    /* background-color: white; */
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+    align-items: center;
+    width: 100%;
+}
+.feed__input > form{
+    /* background-color: white; */
+    display: flex;
+    width: 100%;
+}
+.feed__input > form > input{
+    border: none;
+    flex:1;
+    /* margin-left: 10px; */
+    outline-width: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+.feed__input > form > button {
+    border: none;
+    background-color: white;
+}
+.feed__inputOptions{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: white; */
+}

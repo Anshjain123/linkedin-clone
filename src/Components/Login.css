@@ -1,0 +1,52 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login__image {
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.login__body {
+  display: flex;
+  flex-direction: column;
+  width: 352px;
+  align-self: center;
+  box-shadow: 1px 5px 10px rgba(16, 16, 16, 0.4);
+  padding: 35px;
+  border-radius: 12px;
+}
+.login__button {
+  margin-top: 25px !important;
+}
+.login__conditions {
+  margin-top: 15px;
+  display: flex;
+  color: #6f6e6e;
+  text-align: center;
+  font-size: 10px;
+}
+.create__account {
+  margin-top: 15px;
+  display: flex;
+  align-self: center;
+}
+.create {
+  color: rgb(0, 108, 216);
+  border-bottom: 1px solid rgb(0, 108, 216);
+  cursor: pointer;
+}
+.Not__having__account {
+  margin-right: 5px;
+  color: gray;
+}
+.login__password{
+    display: flex;
+    width: 100%;
+    height: 47px;
+}
+.visibility__password{
+    display: flex;
+    align-self: center;
+}

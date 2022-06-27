@@ -1,0 +1,47 @@
+.post{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.post__header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.post__info{
+    margin-left: 10px;
+    width: 100%;
+}
+.post__description{
+    font-size: 12px;
+    color: #787878;
+}
+.post__body{
+    overflow-wrap: anywhere;
+    border-bottom: 0.1px solid #ededed;
+}
+.post__buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.post__message{
+    margin-bottom: 15px;
+}
+.post__name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+.post__delete{
+    margin-right: -20px;
+    color: #787878;
+    cursor: pointer;
+}
+.post__delete:hover{
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+}
+.icon__more{
+    color:#787878
+}
